@@ -4,7 +4,7 @@ from calculator import calculate
 
 
 def main()->None:
-    tests_n = int(input("tests amount: "))
+    tests_n = 1000
     for i in range(tests_n):
         x = uniform(-(10**10), 10**10)
         y = uniform(-(10**10), 10**10)
