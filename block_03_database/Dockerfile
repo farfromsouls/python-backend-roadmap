@@ -7,6 +7,9 @@ COPY requirements.txt .
 RUN pip install -r requirements.txt
 
 COPY model.py .
+COPY database.py .
+COPY schemas.py .
+
 COPY main.py .
 
 CMD ["uvicorn", "main:app", "--reload", "--host", "0.0.0.0"]
