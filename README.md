@@ -1,6 +1,7 @@
 # my-backend-roadmap
-
-#### Блок 1: Фундамент — Python, Git и виртуализация
-#### Блок 2: Основы веб-разработки — FastAPI и Pydantic
-#### Блок 3: Базы данных — SQL, SQLAlchemy
-#### Блок 4: Асинхронность и тестирование — Asyncio, Pytest
+#### Block 1: Foundation — Python, Git and Virtualization
+#### Block 2: Web Development Basics — FastAPI and Pydantic
+#### Block 3: Databases — SQL, SQLAlchemy
+#### Block 4: Asynchronous Programming and Testing — Asyncio, Pytest
+#### Block 5: Background Tasks and Queues — Celery, RabbitMQ, Docker Compose
+#### Block 6: Authentication and Authorization — JWT, OAuth2.0/OIDC
