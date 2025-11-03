@@ -20,7 +20,6 @@ def main() -> None:
             print("Ошибка ввода переменных")
             continue
 
-
         operation = input("op=")
         ans = calculate(x, y, operation)
         print(ans)
