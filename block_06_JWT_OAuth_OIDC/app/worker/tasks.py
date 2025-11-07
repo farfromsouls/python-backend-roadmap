@@ -9,5 +9,6 @@ app = Celery("tasks",
 
 @app.task
 def process_order(order_data) -> dict:
+    time.sleep(1)
     print(f"processing order: {order_data}")
     return {"status": "completed", "order": order_data}

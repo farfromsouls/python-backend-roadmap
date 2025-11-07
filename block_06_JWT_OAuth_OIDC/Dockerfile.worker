@@ -1,0 +1,8 @@
+FROM python:3.10-slim
+
+WORKDIR /app
+COPY app/worker /app/worker  
+
+RUN pip install -r worker/requirements.txt
+
+CMD ["celery", "-A", "worker.tasks", "worker", "--loglevel=info"]
